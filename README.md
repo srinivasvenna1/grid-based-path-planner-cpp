@@ -127,7 +127,7 @@ g++ -std=c++17 -Wall -Wextra -o custom_map \
     Src/main.cpp Src/map.cpp Src/AStar.cpp
 ```
 
-This generates the `Farham_custom_map` executable.
+This generates the `custom_map` executable.
 
 ## How to Run
 
