@@ -83,16 +83,16 @@ The algorithm stops when it reaches the destination or when no reachable route r
 ## Project Structure
 
 ```text
-FinalProject-Farham/
+FinalProject-/
 ├── Src/
 │   ├── main.cpp       # Program entry point
 │   ├── map.h / .cpp   # Map loading and grid operations
 │   └── AStar.h / .cpp # A* algorithm and wall penalties
 ├── Map/
-│   └── Farhams_map.txt # Custom test map
+│   └── _map.txt # Custom test map
 ├── Result/
-│   └── Farham_custom_result.txt    # Custom map output
-├── Astar_Farham_map   # Custom map executable (after building)
+│   └── _custom_result.txt    # Custom map output
+├── Astar__map   # Custom map executable (after building)
 └── README.md
 ```
 
@@ -123,7 +123,7 @@ No external pathfinding libraries are required.
 Open a terminal in the project's root directory and run:
 
 ```bash
-g++ -std=c++17 -Wall -Wextra -o Farham_custom_map \
+g++ -std=c++17 -Wall -Wextra -o custom_map \
     Src/main.cpp Src/map.cpp Src/AStar.cpp
 ```
 
@@ -134,7 +134,7 @@ This generates the `Farham_custom_map` executable.
 From the project root:
 
 ```bash
-./Farham_custom_map
+./custom_map
 ```
 
 ## Example Output
@@ -148,10 +148,4 @@ Path (row, col):
 (4, 5) (4, 6) (4, 7) ...
 ```
 
-The result file contains the map with the calculated path marked using `*`, along with the path information supported by the output implementation.
 
-## Author
-
-**Farham**
-
-GitHub: [@Farham-py](https://github.com/Farham-py)
